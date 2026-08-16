@@ -26,8 +26,7 @@ def run_flask():
 threading.Thread(target=run_flask, daemon=True).start()
 
 # ==================== CONFIGURATION ====================
-# ⚠️ सुरक्षा चेतावनी: अपने Bot Token को @BotFather से Revoke/Reset करके यहाँ नया टोकन डालें
-BOT_TOKEN = "8976574521:AAEGsZ7CiUm1SdVrqsVfc7RHVP-18rM6CAY"
+BOT_TOKEN = "8976574521:AAHjW9VvjWg2qtY6Tf-hRkW0LxWlsgO6qxI"
 bot = telebot.TeleBot(BOT_TOKEN)
 
 KEY = bytes([89, 103, 38, 116, 99, 37, 68, 69, 117, 104, 54, 37, 90, 99, 94, 56])
